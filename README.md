@@ -258,7 +258,7 @@ The next steps would be to use software to scrape data directly from maps. This 
 
 - data
     - [valorant.db](https://www.kaggle.com/datasets/visualize25/valorant-pro-matches-full-data)
-    - [round_comps.csv]()
+    - [round_comps.csv](https://drive.google.com/file/d/1JwK_pP3wcTVJzQD60x6T5TDkm8d4BzLa/view?usp=sharing)
     - modeling1.csv
     - round_p.csv
     - round_1.csv
@@ -284,7 +284,7 @@ The next steps would be to use software to scrape data directly from maps. This 
 
 
 ## Acknowledgments
-- VLR.gg
+- [VLR.gg](vlr.gg)
 
 
-### Special thanks to Joshua Broas who sent me his webscraper code after I tracked him down :). 
+### Special thanks to Joshua Broas who sent me his webscraper code after I tracked him down :)
