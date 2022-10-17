@@ -136,7 +136,7 @@ The web scraper outputted data in the form of a database. I ran a function that 
 - Semi-eco has the lowest win rate. This may be because a semi-eco rarely happens against weaker weapons so they usually lose the round. Semi-ecos are usually done not to win the round, but rather to do economic damage to the enemy team so they cannot full-buy in the next round.
 
 #### Win Rate by Buy Type Matchups
-| Team 1 Buy  | Team 2 Buy  | Team 1 Win | Team 2 Win |
+| Team 1 Buy  | Team 2 Buy  | Team 2 Win | Team 1 Win |
 |-------------|-------------|------------|-----------|
 | eco         | eco         | 0.508300   | 0.491700  |
 |     "        | full-buy    | **0.898669** | 0.101331 |
