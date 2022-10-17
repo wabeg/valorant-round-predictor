@@ -243,6 +243,9 @@ XGBoost (.68) and **Gradient Boosting(.69)** perform better than the Time Lag 1 
 ## Limitations
 - Since my model was already split by round I was unable to split by map as well since the datasets would become too small. Once more games have been played this may be possible to create an even more accurate model. 
 
+## Conclusion
+The accuracy of the models shows that making a round win predictor for professional valorant is viable. Every model outpreformed the baseline and can also output a win probability. If these models were trained with even more variables such as player stats, the model is expected to perform even better. 
+
 ## Recommendations / Next Steps
 The next step would be to use software to scrape data directly from maps. This would allow for mid-round prediction to be possible. Another next step would be to create models on the data by map and round. Introducing player and team data could also allow for more accurate predictions. Another way to make the feature importances of the models even better would be to swap all the Team 1 data points with Team 2 and train the models on the combined dataset. This prevents the model from favoring either team over the other when creating the models. 
 
