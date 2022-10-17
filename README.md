@@ -129,12 +129,13 @@ The webscraper outputted data in the form of a database. I ran a function that c
 
 
 ## Exploratory Data Analysis, Visualizations, and Findings
+### Buy Type
 ![Buy Type vs Win Rate](./images/Team1BuyType_vs_WinRate.png)
 
 - Full-Buy has the highest win rate. A full buy consists of the most powerful weapons in the game. 
 - Semi-eco has the lowest win rate. This may be because a semi-eco rarely happens against weaker weapons so they usually lose the round. Semi-ecos are usually done not to win the round, but rather to do economic damage to the enemy team so they cannot full-buy in the next round.
 
-### Win Rate by Buy Type Matchups
+#### Win Rate by Buy Type Matchups
 | Team 1 Buy  | Team 2 Buy  | Team 1 Win | Team 2 Win |
 |-------------|-------------|------------|-----------|
 | eco         | eco         | 0.508300   | 0.491700  |
@@ -165,7 +166,7 @@ The webscraper outputted data in the form of a database. I ran a function that c
 
 
 - Buy type has a significant impact on win rate. The full-buying team has the highest win rate, followed by the semi-buying team. The ecoing team has the lowest win rate.
-
+### Bank
 ![Win Rate per Round by Bank Difference](./images/winRate_bankDiff_round.png)
 
 **There does appear to be a correlation between bank difference and win rate. It changes per round. Rounds 4-12 appear to have the same relationship. As a result I am going to create seperate models for rounds 1, 2, and 3. The other rounds can all be grouped into the same model.**
@@ -175,7 +176,7 @@ The webscraper outputted data in the form of a database. I ran a function that c
 **Round 3** appears to have a negative correlation between difference in bank and and win rate. Round 3 is the 'bonus' round for the team that won rounds 1 and 2 and as a result they are usually going up against a full buy. They usually lose to the full buy but have a larger bank.
 
 **Rounds above 3** appear to have a positive correlation between difference in bank and win rate. Rounds 4-12 appear to have the same relationship. As a result I am going to create seperate models for rounds 1, 2, and 3. 
-
+### Agents
 ![Win Rate by Map for Non-Mirror Agent Pick](./images/win_rate_by_non_mirror_agent_pick_for_10.png)
 **Haven:**
 Astra, Pheonix, Killjoy and skye all have win rates above .5 for their non-mirror matchup. 
