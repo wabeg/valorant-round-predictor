@@ -166,7 +166,7 @@ The webscraper outputted data in the form of a database. I ran a function that c
 
 - Buy type has a significant impact on win rate. The full-buying team has the highest win rate, followed by the semi-buying team. The ecoing team has the lowest win rate.
 
-![Win Rate per Round by Bank Difference](./images/win_rate_by_non_mirror_agent_pick.png)
+![Win Rate per Round by Bank Difference](./images/winRate_bankDiff_round.png)
 
 **There does appear to be a correlation between bank difference and win rate. It changes per round. Rounds 4-12 appear to have the same relationship. As a result I am going to create seperate models for rounds 1, 2, and 3. The other rounds can all be grouped into the same model.**
 
@@ -177,7 +177,29 @@ The webscraper outputted data in the form of a database. I ran a function that c
 **Rounds above 3** appear to have a positive correlation between difference in bank and win rate. Rounds 4-12 appear to have the same relationship. As a result I am going to create seperate models for rounds 1, 2, and 3. 
 
 ![Win Rate by Map for Non-Mirror Agent Pick](./images/win_rate_by_non_mirror_agent_pick_for_10.png)
- - Sage is the only agent that is consistently above .5 winrate for non-mirror matchups.
+**Haven:**
+Astra, Pheonix, Killjoy and skye all have win rates above .5 for their non-mirror matchup. 
+
+**Fracture:**
+Sage is the only agent to have a win rate above .5 for their non-mirror matchup. 
+
+**Breeze:**
+Astra, Jett, and Killjoy all have win rates above .5 for their non-mirror matchup. 
+
+**Bind:**
+Raze, Skye, Viper and Astra all have win rates above .5 for their non-mirror matchup. 
+
+**Ascent:**
+Sage, Killjoy, Reyna and Cypher all have win rates above .5 for their non-mirror matchup. 
+
+**Pearl:**
+Not enough matches have been played on pearl to determine which agents to pick
+
+**Icebox:**
+Sage is the only agent to have a win rate above .5 for their non-mirror matchup. 
+
+**Split:**
+Viper is the only agent to have a win rate above .5 for their non-mirror matchup. 
  
 ## Modeling Approach
 For modeling I began by defining a function that creates a model for 8 of the most commonly used classification: Logistic Regression, XGBoost, Random Forest, KNN Score, Decision Tree, Gradient Boosting, AdaBoost, Gaussian Naive Bayes, and Quadratic Discriminant Analysis. Since I had previously established in EDA that my data was multicollinear, I also used PCA to decorrelate my columns and fit models on this data. PCA overall did not improve performance so none of my finals models used PCA.  
