@@ -1,0 +1,457 @@
+Top 5 correlated columns with Team1Win:
+Team1Win          1.000000
+Team1WinLag1      0.207094
+Team2_semi-eco    0.166623
+Team1_full-buy    0.141761
+bankDiffLag1      0.120058
+Name: Team1Win, dtype: float64
+
+Top 5 correlated columns with Team1WinLag1:
+Team1WinLag1      1.000000
+bankDiff          0.550171
+RoundDiff         0.308814
+Team2_semi-eco    0.271282
+Team1_full-buy    0.220355
+Name: Team1WinLag1, dtype: float64
+
+Top 5 correlated columns with Team1WinLag2:
+Team1WinLag2    1.000000
+bankDiffLag1    0.545691
+bankDiff        0.516033
+RoundDiff       0.347926
+Team1WinLag3    0.201435
+Name: Team1WinLag2, dtype: float64
+
+Top 5 correlated columns with Team1WinLag3:
+Team1WinLag3    1.000000
+bankDiffLag2    0.544062
+bankDiffLag1    0.518319
+RoundDiff       0.347739
+bankDiff        0.284848
+Name: Team1WinLag3, dtype: float64
+
+Top 5 correlated columns with Team1WinLag4:
+Team1WinLag4    1.000000
+bankDiffLag3    0.542732
+bankDiffLag2    0.520875
+RoundDiff       0.354605
+bankDiffLag1    0.282253
+Name: Team1WinLag4, dtype: float64
+
+Top 5 correlated columns with RoundNo:
+RoundNo              1.000000
+Team1_full-buy       0.218752
+Team2_full-buy       0.212796
+RoundDiff            0.075082
+team1_only_breach    0.007867
+Name: RoundNo, dtype: float64
+
+Top 5 correlated columns with RoundDiff:
+RoundDiff       1.000000
+bankDiffLag3    0.457004
+bankDiffLag2    0.452882
+bankDiff        0.446014
+bankDiffLag1    0.432551
+Name: RoundDiff, dtype: float64
+
+Top 5 correlated columns with team1_only_astra:
+team1_only_astra        1.000000
+team2_only_omen         0.573271
+team2_only_brimstone    0.255994
+team2_only_jett         0.082566
+team2_only_sage         0.075758
+Name: team1_only_astra, dtype: float64
+
+Top 5 correlated columns with team2_only_astra:
+team2_only_astra        1.000000
+team1_only_omen         0.545470
+team1_only_brimstone    0.256948
+team1_only_sage         0.081321
+team2_only_skye         0.071598
+Name: team2_only_astra, dtype: float64
+
+Top 5 correlated columns with team1_only_breach:
+team1_only_breach    1.000000
+team2_only_skye      0.146376
+team2_only_viper     0.101492
+team2_only_sage      0.096031
+team2_only_reyna     0.095971
+Name: team1_only_breach, dtype: float64
+
+Top 5 correlated columns with team2_only_breach:
+team2_only_breach    1.000000
+team1_only_skye      0.129493
+team1_only_reyna     0.117484
+team1_only_sage      0.111023
+team1_only_viper     0.108185
+Name: team2_only_breach, dtype: float64
+
+Top 5 correlated columns with team1_only_brimstone:
+team1_only_brimstone    1.000000
+team2_only_omen         0.325831
+team2_only_astra        0.256948
+team1_only_viper        0.083490
+team2_only_viper        0.072101
+Name: team1_only_brimstone, dtype: float64
+
+Top 5 correlated columns with team2_only_brimstone:
+team2_only_brimstone    1.000000
+team1_only_omen         0.330007
+team1_only_astra        0.255994
+team2_only_viper        0.068685
+team1_only_sova         0.064244
+Name: team2_only_brimstone, dtype: float64
+
+Top 5 correlated columns with team1_only_chamber:
+team1_only_chamber    1.000000
+team2_only_killjoy    0.174068
+team2_only_jett       0.123466
+team2_only_cypher     0.122198
+team1_only_fade       0.099293
+Name: team1_only_chamber, dtype: float64
+
+Top 5 correlated columns with team2_only_chamber:
+team2_only_chamber    1.000000
+team1_only_killjoy    0.197511
+team1_only_cypher     0.124801
+team2_only_fade       0.118156
+team1_only_jett       0.113584
+Name: team2_only_chamber, dtype: float64
+
+Top 5 correlated columns with team1_only_cypher:
+team1_only_cypher     1.000000
+team2_only_killjoy    0.499871
+team2_only_chamber    0.124801
+team2_only_viper      0.079427
+team1_only_omen       0.067718
+Name: team1_only_cypher, dtype: float64
+
+Top 5 correlated columns with team2_only_cypher:
+team2_only_cypher     1.000000
+team1_only_killjoy    0.474540
+team1_only_chamber    0.122198
+team1_only_viper      0.094581
+team2_only_phoenix    0.075065
+Name: team2_only_cypher, dtype: float64
+
+Top 5 correlated columns with team1_only_fade:
+team1_only_fade       1.000000
+team2_only_sova       0.214116
+team2_only_neon       0.106006
+team1_only_chamber    0.099293
+team2_only_skye       0.078744
+Name: team1_only_fade, dtype: float64
+
+Top 5 correlated columns with team2_only_fade:
+team2_only_fade       1.000000
+team1_only_sova       0.245695
+team2_only_chamber    0.118156
+team1_only_neon       0.113410
+team2_only_neon       0.076421
+Name: team2_only_fade, dtype: float64
+
+Top 5 correlated columns with team1_only_jett:
+team1_only_jett       1.000000
+team2_only_raze       0.378577
+team2_only_chamber    0.113584
+team2_only_sage       0.108725
+team2_only_neon       0.096809
+Name: team1_only_jett, dtype: float64
+
+Top 5 correlated columns with team2_only_jett:
+team2_only_jett       1.000000
+team1_only_raze       0.355018
+team1_only_sage       0.136712
+team1_only_chamber    0.123466
+team1_only_neon       0.119312
+Name: team2_only_jett, dtype: float64
+
+Top 5 correlated columns with team1_only_kayo:
+team1_only_kayo      1.000000
+team2_only_skye      0.195120
+team1_only_neon      0.076641
+team2_only_sage      0.073361
+team2_only_breach    0.068360
+Name: team1_only_kayo, dtype: float64
+
+Top 5 correlated columns with team2_only_kayo:
+team2_only_kayo      1.000000
+team1_only_skye      0.193318
+team2_only_neon      0.087220
+team1_only_sage      0.077361
+team1_only_breach    0.075213
+Name: team2_only_kayo, dtype: float64
+
+Top 5 correlated columns with team1_only_killjoy:
+team1_only_killjoy    1.000000
+team2_only_cypher     0.474540
+team2_only_chamber    0.197511
+team2_only_reyna      0.091862
+team2_only_raze       0.055514
+Name: team1_only_killjoy, dtype: float64
+
+Top 5 correlated columns with team2_only_killjoy:
+team2_only_killjoy    1.000000
+team1_only_cypher     0.499871
+team1_only_chamber    0.174068
+team1_only_reyna      0.090985
+team2_only_jett       0.056222
+Name: team2_only_killjoy, dtype: float64
+
+Top 5 correlated columns with team1_only_neon:
+team1_only_neon       1.000000
+team2_only_raze       0.132534
+team2_only_jett       0.119312
+team2_only_fade       0.113410
+team1_only_chamber    0.096187
+Name: team1_only_neon, dtype: float64
+
+Top 5 correlated columns with team2_only_neon:
+team2_only_neon    1.000000
+team1_only_raze    0.146870
+team1_only_fade    0.106006
+team1_only_jett    0.096809
+team2_only_kayo    0.087220
+Name: team2_only_neon, dtype: float64
+
+Top 5 correlated columns with team1_only_omen:
+team1_only_omen         1.000000
+team2_only_astra        0.545470
+team2_only_brimstone    0.330007
+team2_only_viper        0.103867
+team1_only_cypher       0.067718
+Name: team1_only_omen, dtype: float64
+
+Top 5 correlated columns with team2_only_omen:
+team2_only_omen         1.000000
+team1_only_astra        0.573271
+team1_only_brimstone    0.325831
+team1_only_viper        0.092250
+team2_only_jett         0.063059
+Name: team2_only_omen, dtype: float64
+
+Top 5 correlated columns with team1_only_phoenix:
+team1_only_phoenix    1.000000
+team2_only_reyna      0.109538
+team2_only_breach     0.091476
+team2_only_raze       0.073794
+team1_only_cypher     0.064597
+Name: team1_only_phoenix, dtype: float64
+
+Top 5 correlated columns with team2_only_phoenix:
+team2_only_phoenix    1.000000
+team1_only_reyna      0.100563
+team1_only_raze       0.094045
+team2_only_cypher     0.075065
+team1_only_breach     0.069085
+Name: team2_only_phoenix, dtype: float64
+
+Top 5 correlated columns with team1_only_raze:
+team1_only_raze       1.000000
+team2_only_jett       0.355018
+team2_only_neon       0.146870
+team2_only_phoenix    0.094045
+team2_only_sova       0.084945
+Name: team1_only_raze, dtype: float64
+
+Top 5 correlated columns with team2_only_raze:
+team2_only_raze       1.000000
+team1_only_jett       0.378577
+team1_only_neon       0.132534
+team1_only_sova       0.079319
+team1_only_phoenix    0.073794
+Name: team2_only_raze, dtype: float64
+
+Top 5 correlated columns with team1_only_reyna:
+team1_only_reyna      1.000000
+team2_only_breach     0.117484
+team2_only_phoenix    0.100563
+team2_only_killjoy    0.090985
+team2_only_jett       0.058871
+Name: team1_only_reyna, dtype: float64
+
+Top 5 correlated columns with team2_only_reyna:
+team2_only_reyna      1.000000
+team1_only_phoenix    0.109538
+team1_only_breach     0.095971
+team1_only_killjoy    0.091862
+team1_only_jett       0.073007
+Name: team2_only_reyna, dtype: float64
+
+Top 5 correlated columns with team1_only_sage:
+team1_only_sage      1.000000
+team2_only_jett      0.136712
+team2_only_breach    0.111023
+team2_only_sova      0.107460
+team2_only_viper     0.096795
+Name: team1_only_sage, dtype: float64
+
+Top 5 correlated columns with team2_only_sage:
+team2_only_sage      1.000000
+team1_only_jett      0.108725
+team1_only_viper     0.107545
+team1_only_sova      0.101496
+team1_only_breach    0.096031
+Name: team2_only_sage, dtype: float64
+
+Top 5 correlated columns with team1_only_skye:
+team1_only_skye      1.000000
+team2_only_sova      0.239470
+team2_only_kayo      0.193318
+team2_only_breach    0.129493
+team1_only_viper     0.125775
+Name: team1_only_skye, dtype: float64
+
+Top 5 correlated columns with team2_only_skye:
+team2_only_skye      1.000000
+team1_only_sova      0.202376
+team1_only_kayo      0.195120
+team1_only_breach    0.146376
+team2_only_viper     0.097827
+Name: team2_only_skye, dtype: float64
+
+Top 5 correlated columns with team1_only_sova:
+team1_only_sova    1.000000
+team2_only_fade    0.245695
+team2_only_skye    0.202376
+team2_only_sage    0.101496
+team2_only_raze    0.079319
+Name: team1_only_sova, dtype: float64
+
+Top 5 correlated columns with team2_only_sova:
+team2_only_sova    1.000000
+team1_only_skye    0.239470
+team1_only_fade    0.214116
+team1_only_sage    0.107460
+team1_only_raze    0.084945
+Name: team2_only_sova, dtype: float64
+
+Top 5 correlated columns with team1_only_viper:
+team1_only_viper     1.000000
+team1_only_skye      0.125775
+team2_only_breach    0.108185
+team2_only_sage      0.107545
+team2_only_jett      0.101235
+Name: team1_only_viper, dtype: float64
+
+Top 5 correlated columns with team2_only_viper:
+team2_only_viper     1.000000
+team1_only_omen      0.103867
+team1_only_breach    0.101492
+team2_only_skye      0.097827
+team1_only_sage      0.096795
+Name: team2_only_viper, dtype: float64
+
+Top 5 correlated columns with team1_only_yoru:
+team1_only_yoru         1.000000
+team2_only_sova         0.054555
+team1_only_fade         0.041350
+team2_only_jett         0.038232
+team1_only_brimstone    0.035046
+Name: team1_only_yoru, dtype: float64
+
+Top 5 correlated columns with team2_only_yoru:
+team2_only_yoru       1.000000
+team1_only_jett       0.033023
+team1_only_chamber    0.029789
+team1_only_skye       0.029351
+team1_only_kayo       0.028029
+Name: team2_only_yoru, dtype: float64
+
+Top 5 correlated columns with bankDiff:
+bankDiff        1.000000
+Team1WinLag1    0.550171
+Team1WinLag2    0.516033
+bankDiffLag1    0.502083
+RoundDiff       0.446014
+Name: bankDiff, dtype: float64
+
+Top 5 correlated columns with bankDiffLag1:
+bankDiffLag1    1.000000
+Team1WinLag2    0.545691
+Team1WinLag3    0.518319
+bankDiff        0.502083
+bankDiffLag2    0.493864
+Name: bankDiffLag1, dtype: float64
+
+Top 5 correlated columns with bankDiffLag2:
+bankDiffLag2    1.000000
+Team1WinLag3    0.544062
+Team1WinLag4    0.520875
+bankDiffLag1    0.493864
+bankDiffLag3    0.491822
+Name: bankDiffLag2, dtype: float64
+
+Top 5 correlated columns with bankDiffLag3:
+bankDiffLag3    1.000000
+Team1WinLag4    0.542732
+bankDiffLag2    0.491822
+RoundDiff       0.457004
+bankDiffLag1    0.412243
+Name: bankDiffLag3, dtype: float64
+
+Top 5 correlated columns with Team1_eco:
+Team1_eco         1.000000
+Team2_eco         0.618305
+bankDiffLag3      0.057079
+Team2_semi-buy    0.050408
+bankDiffLag2      0.040873
+Name: Team1_eco, dtype: float64
+
+Top 5 correlated columns with Team1_full-buy:
+Team1_full-buy    1.000000
+bankDiffLag1      0.281130
+bankDiff          0.227077
+Team1WinLag1      0.220355
+RoundNo           0.218752
+Name: Team1_full-buy, dtype: float64
+
+Top 5 correlated columns with Team1_semi-buy:
+Team1_semi-buy    1.000000
+Team2_eco         0.116535
+Team1WinLag1      0.024766
+Team1Win          0.024501
+Team2_full-buy    0.008111
+Name: Team1_semi-buy, dtype: float64
+
+Top 5 correlated columns with Team1_semi-eco:
+Team1_semi-eco        1.000000
+Team2_full-buy        0.159377
+team1_only_cypher     0.008188
+team1_only_breach     0.006639
+team2_only_killjoy    0.005129
+Name: Team1_semi-eco, dtype: float64
+
+Top 5 correlated columns with Team2_eco:
+Team2_eco         1.000000
+Team1_eco         0.618305
+Team1WinLag1      0.160575
+Team1_semi-buy    0.116535
+Team1Win          0.104929
+Name: Team2_eco, dtype: float64
+
+Top 5 correlated columns with Team2_full-buy:
+Team2_full-buy    1.000000
+RoundNo           0.212796
+Team1_full-buy    0.210770
+Team1_semi-eco    0.159377
+Team1_semi-buy    0.008111
+Name: Team2_full-buy, dtype: float64
+
+Top 5 correlated columns with Team2_semi-buy:
+Team2_semi-buy    1.000000
+bankDiff          0.164557
+bankDiffLag1      0.162766
+bankDiffLag3      0.105434
+Team1WinLag3      0.099258
+Name: Team2_semi-buy, dtype: float64
+
+Top 5 correlated columns with Team2_semi-eco:
+Team2_semi-eco    1.000000
+Team1WinLag1      0.271282
+Team1_full-buy    0.175948
+bankDiffLag1      0.171775
+Team1Win          0.166623
+Name: Team2_semi-eco, dtype: float64
+
+None
